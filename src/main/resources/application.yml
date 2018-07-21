@@ -15,10 +15,8 @@ server:
 # Zuul routing
 zuul:
   routes:
-    books:
-      url: https://www.amazon.fr/
-    videos:
-      url: https://www.youtube.com
-    musics:
-      url: https://www.spotify.com/
+    app_1:
+      url: http://localhost:3000
+    app_2:
+      url: http://localhost:3010
 
