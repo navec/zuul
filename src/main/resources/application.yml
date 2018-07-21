@@ -1,0 +1,24 @@
+# Spring
+spring:
+  application:
+    name: zuul
+
+# Eureka configuration
+ribbon:
+  eureka:
+    enabled: false
+
+# Server
+server:
+  port: 8080
+
+# Zuul routing
+zuul:
+  routes:
+    books:
+      url: https://www.amazon.fr/
+    videos:
+      url: https://www.youtube.com
+    musics:
+      url: https://www.spotify.com/
+
